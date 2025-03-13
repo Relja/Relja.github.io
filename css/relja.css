@@ -1,0 +1,39 @@
+@media (min-width: 575px) {
+  #sidebar {
+  position: fixed;
+  min-height: 100vh;
+  top: 0;
+  }
+}
+@media(max-width: 574px) {
+  #sidebar {
+    position:fixed;
+    z-index:1;
+  }
+  #mainContent {
+    margin-top: 56px;
+    padding-top: 15px;
+  }
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.news li {
+  padding-bottom: 20px;
+}
+
+.year {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.linkiodsek {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.link {
+  padding-left: 20px;
+}
